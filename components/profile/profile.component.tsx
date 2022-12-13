@@ -78,7 +78,12 @@ export const ProfileComponent = ({
             <div className='border-bottom' />
           </Photo>
           <CardTitle>
-            <span className='short-name'>{names.name}</span>
+            <span className='short-name'>
+              {names.name.split(' ')[0].charAt(0).toUpperCase()}
+              {'. '}
+              {names.name.split(' ')[1].charAt(0).toUpperCase() +
+                names.name.split(' ')[1].slice(1)}
+            </span>
             <span className='stats'>
               {wins}-{loses}-{stats.tie}
             </span>
