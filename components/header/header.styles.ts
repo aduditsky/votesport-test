@@ -24,7 +24,7 @@ export const Logo = styled.div`
   padding: 1em 23px;
 
   width: fit-content;
-  border: 1px solid #404040;
+  border-right: 1px solid #404040;
 `;
 
 export const Navigation = styled.div`
