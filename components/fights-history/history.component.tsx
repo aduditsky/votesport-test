@@ -2,10 +2,6 @@ import React from 'react';
 import { FightHistory } from 'interfaces/fighter';
 import { Header, HistoryList, HistoryStyles } from './history.styles';
 
-const HistoryItem = () => {
-  return <div>123</div>;
-};
-
 interface IProps {
   history: FightHistory[];
 }
